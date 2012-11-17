@@ -1,0 +1,23 @@
+TESTS_DIR: /storage/binet/dev/go/dev/ng-go-gaudi/gaudi/tests/scripts
+GAUDI_APP: /storage/binet/dev/go/dev/ng-go-gaudi/gaudi/app/app.py
+::: nworkers: 5000 nprocs: 0000     WORK_DIR: /tmp/ng-gaudi-go-dqxcck
+111.21user 42.00system 2:56.49elapsed 86%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+117025minor)pagefaults 0swaps
+::: nworkers: 5000 nprocs: 0002     WORK_DIR: /tmp/ng-gaudi-go-RJlSas
+79.10user 65.71system 1:19.13elapsed 182%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+146640minor)pagefaults 0swaps
+::: nworkers: 5000 nprocs: 0004     WORK_DIR: /tmp/ng-gaudi-go-tRUfrp
+87.64user 98.96system 0:56.81elapsed 328%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+173101minor)pagefaults 0swaps
+::: nworkers: 5000 nprocs: 0006     WORK_DIR: /tmp/ng-gaudi-go-MxOGYW
+95.12user 123.62system 0:49.42elapsed 442%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+182617minor)pagefaults 0swaps
+::: nworkers: 5000 nprocs: 0008     WORK_DIR: /tmp/ng-gaudi-go-mkansF
+99.85user 154.46system 0:47.58elapsed 534%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+188036minor)pagefaults 0swaps
+::: nworkers: 5000 nprocs: 0010     WORK_DIR: /tmp/ng-gaudi-go-OWiLex
+108.45user 180.41system 0:46.99elapsed 614%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+191737minor)pagefaults 0swaps
+::: nworkers: 5000 nprocs: 0012     WORK_DIR: /tmp/ng-gaudi-go-hYSPaC
+99.16user 212.96system 0:46.83elapsed 666%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+191685minor)pagefaults 0swaps
