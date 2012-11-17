@@ -3,7 +3,7 @@ package pkg2
 
 import "time"
 
-import "github.com/sbinet/go-gaudi/pkg/gaudi/kernel"
+import "github.com/go-hep/gaudi-fwk/kernel"
 
 // --- alg1 ---
 

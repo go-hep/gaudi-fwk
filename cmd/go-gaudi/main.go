@@ -6,7 +6,7 @@ import (
 	"os"
 	//"reflect"
 
-	"github.com/sbinet/go-gaudi/pkg/gaudi/kernel"
+	"github.com/go-hep/gaudi-fwk/kernel"
 )
 
 var (

@@ -11,7 +11,7 @@ Installation
 Is as easy as::
 
 ```
-$ go get github.com/sbinet/go-gaudi/pkg/gaudi...
+$ go get github.com/go-hep/gaudi-fwk/pkg/gaudi...
 ```
 
 (yes, with the ellipsis at the end, to compile and install all subpackages)
@@ -21,5 +21,5 @@ Documentation
 
 Is available on go.pkgdoc:
 
-   http://go.pkgdoc.org/github.com/sbinet/go-gaudi/pkg/gaudi/kernel
+   http://go.pkgdoc.org/github.com/go-hep/gaudi-fwk/kernel
 

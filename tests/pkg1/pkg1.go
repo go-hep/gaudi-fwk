@@ -1,7 +1,7 @@
 // test package 'pkg1'
 package pkg1
 
-import "github.com/sbinet/go-gaudi/pkg/gaudi/kernel"
+import "github.com/go-hep/gaudi-fwk/kernel"
 
 // --- alg1 ---
 
