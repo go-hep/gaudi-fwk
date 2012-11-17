@@ -5,8 +5,7 @@ go-gaudi
 investigate concurrency patterns and implementations.
 
 
-Installation
-------------
+# Installation
 
 Is as easy as::
 
@@ -16,8 +15,7 @@ $ go get github.com/go-hep/gaudi-fwk/...
 
 (yes, with the ellipsis at the end, to compile and install all subpackages)
 
-Documentation
--------------
+# Documentation
 
 Is available on go.pkgdoc:
 
