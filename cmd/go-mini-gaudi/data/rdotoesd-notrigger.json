@@ -1,0 +1,2595 @@
+{
+  "process": {
+    "algs": [
+      {
+        "eventTimes": 0.28988888888888892, 
+        "toGet": [], 
+        "@name": "CaloCellMaker"
+      }, 
+      {
+        "eventTimes": 0.077666666666666676, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "EmTowerBldr"
+      }, 
+      {
+        "eventTimes": 0.013222222222222222, 
+        "toGet": [
+          {
+            "label": "EmTowerBldr"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "LArClusterMaker"
+      }, 
+      {
+        "eventTimes": 0.02, 
+        "toGet": [
+          {
+            "label": "LArClusterMaker"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "LAr7_11NocorrClusterMaker"
+      }, 
+      {
+        "eventTimes": 1.731111111111111, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CaloTopoCluster"
+      }, 
+      {
+        "eventTimes": 0.013777777777777779, 
+        "toGet": [
+          {
+            "label": "CaloTopoCluster"
+          }
+        ], 
+        "@name": "CaloCell2TopoCluster"
+      }, 
+      {
+        "eventTimes": 0.076777777777777778, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CaloClusterTopoEM430Getter"
+      }, 
+      {
+        "eventTimes": 0.0044444444444444444, 
+        "toGet": [
+          {
+            "label": "CaloClusterTopoEM430Getter"
+          }
+        ], 
+        "@name": "EMCell2TopoCluster430"
+      }, 
+      {
+        "eventTimes": 0.0055555555555555558, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "TileLookForMuAlg"
+      }, 
+      {
+        "eventTimes": 0.0025555555555555553, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "LArNoisyROAlg"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "MBTSTimeDiffEventInfoAlg"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [], 
+        "@name": "InDetBCM_ZeroSuppression"
+      }, 
+      {
+        "eventTimes": 0.08611111111111111, 
+        "toGet": [], 
+        "@name": "InDetPixelClusterization"
+      }, 
+      {
+        "eventTimes": 0.021333333333333333, 
+        "toGet": [], 
+        "@name": "InDetSCT_Clusterization"
+      }, 
+      {
+        "eventTimes": 0.0067777777777777775, 
+        "toGet": [
+          {
+            "label": "InDetSCT_Clusterization"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetSiTrackerSpacePointFinder"
+      }, 
+      {
+        "eventTimes": 0.02388888888888889, 
+        "toGet": [
+          {
+            "label": "InDetSCT_Clusterization"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetPRD_MultiTruthMakerSi"
+      }, 
+      {
+        "eventTimes": 0.051888888888888887, 
+        "toGet": [], 
+        "@name": "InDetTRT_RIO_Maker"
+      }, 
+      {
+        "eventTimes": 0.025111111111111112, 
+        "toGet": [
+          {
+            "label": "InDetTRT_RIO_Maker"
+          }
+        ], 
+        "@name": "InDetTRT_PRD_MultiTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.38655555555555554, 
+        "toGet": [
+          {
+            "label": "InDetSiTrackerSpacePointFinder"
+          }, 
+          {
+            "label": "InDetSCT_Clusterization"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetSiSpTrackFinder"
+      }, 
+      {
+        "eventTimes": 0.011444444444444445, 
+        "toGet": [
+          {
+            "label": "InDetSiSpTrackFinder"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }, 
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }
+        ], 
+        "@name": "SiSPSeededTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "SiSPSeededTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "SiSPSeededTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.16622222222222224, 
+        "toGet": [
+          {
+            "label": "InDetSiSpTrackFinder"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetAmbiguitySolver"
+      }, 
+      {
+        "eventTimes": 0.0051111111111111105, 
+        "toGet": [
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }, 
+          {
+            "label": "InDetAmbiguitySolver"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }
+        ], 
+        "@name": "ResolvedTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "ResolvedTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "ResolvedTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.029999999999999999, 
+        "toGet": [
+          {
+            "label": "InDetTRT_RIO_Maker"
+          }, 
+          {
+            "label": "InDetAmbiguitySolver"
+          }
+        ], 
+        "@name": "InDetTRT_Extension"
+      }, 
+      {
+        "eventTimes": 0.21033333333333334, 
+        "toGet": [
+          {
+            "label": "InDetTRT_Extension"
+          }, 
+          {
+            "label": "InDetAmbiguitySolver"
+          }
+        ], 
+        "@name": "InDetExtensionProcessor"
+      }, 
+      {
+        "eventTimes": 0.0087777777777777784, 
+        "toGet": [
+          {
+            "label": "InDetExtensionProcessor"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }, 
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }
+        ], 
+        "@name": "ExtendedTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "ExtendedTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "ExtendedTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.001, 
+        "toGet": [
+          {
+            "label": "InDetExtensionProcessor"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetSegmentPRD_Association"
+      }, 
+      {
+        "eventTimes": 0.16400000000000001, 
+        "toGet": [
+          {
+            "label": "InDetTRT_RIO_Maker"
+          }
+        ], 
+        "@name": "InDetTRT_TrackSegmentsFinder"
+      }, 
+      {
+        "eventTimes": 0.0066666666666666671, 
+        "toGet": [
+          {
+            "label": "InDetTRT_TrackSegmentsFinder"
+          }, 
+          {
+            "label": "InDetTRT_RIO_Maker"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }
+        ], 
+        "@name": "InDetSegmentDriftCircleAssValidation"
+      }, 
+      {
+        "eventTimes": 0.018111111111111113, 
+        "toGet": [
+          {
+            "label": "InDetTRT_RIO_Maker"
+          }, 
+          {
+            "label": "InDetSCT_Clusterization"
+          }, 
+          {
+            "label": "InDetTRT_TrackSegmentsFinder"
+          }, 
+          {
+            "label": "InDetSiTrackerSpacePointFinder"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetTRT_SeededTrackFinder"
+      }, 
+      {
+        "eventTimes": 0.0043333333333333331, 
+        "toGet": [
+          {
+            "label": "InDetTRT_SeededTrackFinder"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }, 
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }
+        ], 
+        "@name": "TRTSeededTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "TRTSeededTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "TRTSeededTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.011666666666666665, 
+        "toGet": [
+          {
+            "label": "InDetTRT_SeededTrackFinder"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetTRT_SeededAmbiguitySolver"
+      }, 
+      {
+        "eventTimes": 0.0030000000000000001, 
+        "toGet": [
+          {
+            "label": "InDetTRT_SeededAmbiguitySolver"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }, 
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }
+        ], 
+        "@name": "ResolvedTRTSeededTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "ResolvedTRTSeededTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "ResolvedTRTSeededTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.0012222222222222224, 
+        "toGet": [
+          {
+            "label": "InDetExtensionProcessor"
+          }, 
+          {
+            "label": "InDetTRT_SeededAmbiguitySolver"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetTRTonly_PRD_Association"
+      }, 
+      {
+        "eventTimes": 0.013333333333333334, 
+        "toGet": [
+          {
+            "label": "InDetTRT_TrackSegmentsFinder"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetTRT_StandaloneTrackFinder"
+      }, 
+      {
+        "eventTimes": 0.0038888888888888888, 
+        "toGet": [
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }, 
+          {
+            "label": "InDetTRT_StandaloneTrackFinder"
+          }
+        ], 
+        "@name": "TRTStandaloneTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "TRTStandaloneTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "TRTStandaloneTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.054555555555555559, 
+        "toGet": [
+          {
+            "label": "InDetExtensionProcessor"
+          }, 
+          {
+            "label": "InDetTRT_SeededAmbiguitySolver"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }, 
+          {
+            "label": "InDetTRT_StandaloneTrackFinder"
+          }
+        ], 
+        "@name": "InDetTrackCollectionMerger"
+      }, 
+      {
+        "eventTimes": 0.009555555555555555, 
+        "toGet": [
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }, 
+          {
+            "label": "InDetTrackCollectionMerger"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }
+        ], 
+        "@name": "CombinedInDetTracksDetailedTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "CombinedInDetTracksDetailedTruthMaker"
+          }
+        ], 
+        "@name": "CombinedInDetTracksTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.0041111111111111105, 
+        "toGet": [
+          {
+            "label": "InDetTrackCollectionMerger"
+          }
+        ], 
+        "@name": "InDetTrackSlimmer"
+      }, 
+      {
+        "eventTimes": 0.0092222222222222219, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "InDetTRT_PRD_MultiTruthMaker"
+          }, 
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }
+        ], 
+        "@name": "DetailedTrackTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "DetailedTrackTruthMaker"
+          }
+        ], 
+        "@name": "TrackTruthCollectionSelector"
+      }, 
+      {
+        "eventTimes": 0.0016666666666666668, 
+        "toGet": [
+          {
+            "label": "InDetTrackCollectionMerger"
+          }
+        ], 
+        "@name": "InDetCosmicsEventPhase"
+      }, 
+      {
+        "eventTimes": 0.017111111111111112, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }
+        ], 
+        "@name": "InDetPriVxFinder"
+      }, 
+      {
+        "eventTimes": 0.0012222222222222224, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }
+        ], 
+        "@name": "InDetParticleCreator_PRD_Association"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "InDetParticleCreation"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "TrackTruthCollectionSelector"
+          }
+        ], 
+        "@name": "InDetTrackParticleTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0077777777777777776, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetTrackCollectionMerger"
+          }
+        ], 
+        "@name": "InDetLowBetaTrkAlgorithm"
+      }, 
+      {
+        "eventTimes": 0.050333333333333334, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }
+        ], 
+        "@name": "InDetSecVtxFinder"
+      }, 
+      {
+        "eventTimes": 0.070777777777777773, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }
+        ], 
+        "@name": "InDetConversionFinder"
+      }, 
+      {
+        "eventTimes": 0.0085555555555555558, 
+        "toGet": [
+          {
+            "label": "InDetTRT_SeededTrackFinder"
+          }, 
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "InDetAmbiguitySolver"
+          }, 
+          {
+            "label": "CombinedInDetTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "ResolvedTRTSeededTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "TRTSeededTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "InDetTRT_StandaloneTrackFinder"
+          }, 
+          {
+            "label": "ExtendedTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "InDetTRT_SeededAmbiguitySolver"
+          }, 
+          {
+            "label": "ResolvedTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "InDetSiSpTrackFinder"
+          }, 
+          {
+            "label": "InDetExtensionProcessor"
+          }, 
+          {
+            "label": "TRTStandaloneTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "SiSPSeededTracksTruthCollectionSelector"
+          }, 
+          {
+            "label": "InDetTrackCollectionMerger"
+          }, 
+          {
+            "label": "TrackTruthCollectionSelector"
+          }
+        ], 
+        "@name": "InDetRecStatistics"
+      }, 
+      {
+        "eventTimes": 0.0073333333333333332, 
+        "toGet": [
+          {
+            "label": "InDetSiTrackerSpacePointFinder"
+          }, 
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "InDetSCT_Clusterization"
+          }, 
+          {
+            "label": "InDetPixelClusterization"
+          }, 
+          {
+            "label": "InDetAmbiguitySolver"
+          }, 
+          {
+            "label": "InDetPRD_MultiTruthMakerSi"
+          }, 
+          {
+            "label": "InDetTRT_StandaloneTrackFinder"
+          }, 
+          {
+            "label": "InDetTRT_SeededTrackFinder"
+          }, 
+          {
+            "label": "InDetTRT_SeededAmbiguitySolver"
+          }, 
+          {
+            "label": "InDetSiSpTrackFinder"
+          }, 
+          {
+            "label": "InDetExtensionProcessor"
+          }, 
+          {
+            "label": "InDetTrackCollectionMerger"
+          }
+        ], 
+        "@name": "InDetTrackClusterAssValidation"
+      }, 
+      {
+        "eventTimes": 0.0011111111111111111, 
+        "toGet": [], 
+        "@name": "CscRdoToCscPrepData"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [], 
+        "@name": "MdtRdoToMdtPrepData"
+      }, 
+      {
+        "eventTimes": 0.00055555555555555556, 
+        "toGet": [], 
+        "@name": "RpcRdoToRpcPrepData"
+      }, 
+      {
+        "eventTimes": 0.001, 
+        "toGet": [], 
+        "@name": "TgcRdoToTgcPrepData"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "CscRdoToCscPrepData"
+          }
+        ], 
+        "@name": "CscThresholdClusterBuilder"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [], 
+        "@name": "TrackRecordFilter"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [], 
+        "@name": "TrackRecordFilterMuonExitLayer"
+      }, 
+      {
+        "eventTimes": 0.00066666666666666664, 
+        "toGet": [
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MuonPRD_MultiTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MboyDigiEmptyLoop"
+      }, 
+      {
+        "eventTimes": 0.16444444444444445, 
+        "toGet": [
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "TrackRecordFilter"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MboyRec"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [], 
+        "@name": "MboyMuonChamberT0s"
+      }, 
+      {
+        "eventTimes": 0.01, 
+        "toGet": [
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MooSegmentMaker"
+      }, 
+      {
+        "eventTimes": 0.042222222222222223, 
+        "toGet": [
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "MooSegmentMaker"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MuonCombiTrackBuilder"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "MuonCombiTrackBuilder"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MuidMooreTPCreator"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "MuidStandalone"
+          }, 
+          {
+            "label": "StacoMaster"
+          }, 
+          {
+            "label": "MboyRec"
+          }, 
+          {
+            "label": "MuonCombiTrackBuilder"
+          }, 
+          {
+            "label": "MuidCombined"
+          }, 
+          {
+            "label": "MuonCombinedRefit"
+          }, 
+          {
+            "label": "MuonPRD_MultiTruthMaker"
+          }
+        ], 
+        "@name": "MuonDetailedTrackTruthMaker"
+      }, 
+      {
+        "eventTimes": 0.65633333333333344, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetConversionFinder"
+          }, 
+          {
+            "label": "LArClusterMaker"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "egamma"
+      }, 
+      {
+        "eventTimes": 0.10677777777777778, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetConversionFinder"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "egamma"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "softe"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "CaloTopoCluster"
+          }
+        ], 
+        "@name": "egammaForward"
+      }, 
+      {
+        "eventTimes": 0.078, 
+        "toGet": [
+          {
+            "label": "CaloClusterTopoEM430Getter"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "EMTopo35ClusterMaker"
+      }, 
+      {
+        "eventTimes": 0.32455555555555554, 
+        "toGet": [
+          {
+            "label": "EMTopo35ClusterMaker"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "egamma"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "egammaTopoSeeded"
+      }, 
+      {
+        "eventTimes": 0.0011111111111111111, 
+        "toGet": [
+          {
+            "label": "softe"
+          }, 
+          {
+            "label": "egamma"
+          }, 
+          {
+            "label": "egammaTopoSeeded"
+          }, 
+          {
+            "label": "egammaForward"
+          }
+        ], 
+        "@name": "egammaAOD"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [], 
+        "@name": "InitializeMuonCaloEnergy"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [], 
+        "@name": "InitializeMuonClusters"
+      }, 
+      {
+        "eventTimes": 0.049222222222222223, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InitializeMuonClusters"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "CaloTrkMuIdAlg"
+      }, 
+      {
+        "eventTimes": 0.026444444444444444, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "MuonCombiTrackBuilder"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MuidStandalone"
+      }, 
+      {
+        "eventTimes": 0.029999999999999999, 
+        "toGet": [
+          {
+            "label": "MuidStandalone"
+          }, 
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "MuonCombiTrackBuilder"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MuidCombined"
+      }, 
+      {
+        "eventTimes": 0.024555555555555556, 
+        "toGet": [
+          {
+            "label": "MuidStandalone"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "MuidMooreTPCreator"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "MuidStandaloneTPAMCreator"
+      }, 
+      {
+        "eventTimes": 0.018333333333333333, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "MuidStandaloneTPAMCreator"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "MuidCombined"
+          }, 
+          {
+            "label": "MuidMooreTPCreator"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "MuidCombinedTPAMCreator"
+      }, 
+      {
+        "eventTimes": 0.16966666666666666, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "CscRdoToCscPrepData"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "MuGirl"
+      }, 
+      {
+        "eventTimes": 0.00066666666666666664, 
+        "toGet": [
+          {
+            "label": "MuidCombinedTPAMCreator"
+          }, 
+          {
+            "label": "MuidStandaloneTPAMCreator"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "MuGirl"
+          }
+        ], 
+        "@name": "MuidStatistics"
+      }, 
+      {
+        "eventTimes": 0.057444444444444444, 
+        "toGet": [
+          {
+            "label": "MooSegmentMaker"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "MuTagMasterIMO"
+      }, 
+      {
+        "eventTimes": 0.057000000000000002, 
+        "toGet": [
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }
+        ], 
+        "@name": "MuTagAllStations"
+      }, 
+      {
+        "eventTimes": 0.35466666666666669, 
+        "toGet": [
+          {
+            "label": "MuonCombiTrackBuilder"
+          }, 
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "MuidStandaloneTPAMCreator"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "CscThresholdClusterBuilder"
+          }, 
+          {
+            "label": "MuidMooreTPCreator"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "MuonCombinedRefit"
+      }, 
+      {
+        "eventTimes": 0.023444444444444445, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "MboyRec"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "StacoDressingTP2Ana"
+      }, 
+      {
+        "eventTimes": 0.025555555555555557, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "MboyRec"
+          }
+        ], 
+        "@name": "StacoMaster"
+      }, 
+      {
+        "eventTimes": 0.025333333333333333, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "InitializeMuonCaloEnergy"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "Staco"
+      }, 
+      {
+        "eventTimes": 0.0016666666666666668, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "MboyRec"
+          }
+        ], 
+        "@name": "MuTagMaster"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagInnerStationsSMALL"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagInnerStationsLARGE"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagMediumStationsSMALL"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagMediumStationsLARGE"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagEtaZeroOuterSMALL"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagEtaZeroOuterLARGE"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagCSCareaCss"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagCSCareaCsl"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagCSCareaEms"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "MuTagCSCareaEml"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "MuidCombinedTPAMCreator"
+          }, 
+          {
+            "label": "MuidStandaloneTPAMCreator"
+          }, 
+          {
+            "label": "MuGirl"
+          }, 
+          {
+            "label": "MuTagMasterIMO"
+          }
+        ], 
+        "@name": "ComposeMuidCollection"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "StacoDressingTP2Ana"
+          }, 
+          {
+            "label": "StacoMaster"
+          }, 
+          {
+            "label": "MuTagMaster"
+          }
+        ], 
+        "@name": "ComposeStacoCollection"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "ComposeMuidCollection"
+          }
+        ], 
+        "@name": "BuildMuidCollection"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "ComposeStacoCollection"
+          }
+        ], 
+        "@name": "BuildStacoCollection"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "CaloTrkMuIdAlg"
+          }
+        ], 
+        "@name": "BuildCaloCollection"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "BuildCaloCollection"
+          }
+        ], 
+        "@name": "MuonCrossCollectionLinker"
+      }, 
+      {
+        "eventTimes": 0.043444444444444445, 
+        "toGet": [
+          {
+            "label": "ComposeMuidCollection"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InitializeMuonClusters"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "BuildCaloCollection"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "MuonCombinedPhysicsDressing"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "ComposeMuidCollection"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "BuildCaloCollection"
+          }
+        ], 
+        "@name": "CloseMuonCollections"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "InitializeMuonClusters"
+          }
+        ], 
+        "@name": "FinalizeMuonClusters"
+      }, 
+      {
+        "eventTimes": 0.029000000000000001, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CmbTowerBldr"
+      }, 
+      {
+        "eventTimes": 0.069222222222222227, 
+        "toGet": [
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "CmbTowerBldr"
+          }, 
+          {
+            "label": "CaloCell2TopoCluster"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "TopoTowerBldr"
+      }, 
+      {
+        "eventTimes": 0.071111111111111111, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "TopoTowerBldr"
+          }
+        ], 
+        "@name": "AntiKt6TowerJets"
+      }, 
+      {
+        "eventTimes": 0.065666666666666679, 
+        "toGet": [
+          {
+            "label": "AntiKt6TowerJets"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "TopoTowerBldr"
+          }
+        ], 
+        "@name": "AntiKt4TowerJets"
+      }, 
+      {
+        "eventTimes": 0.15133333333333335, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "AntiKt6TowerJets"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }
+        ], 
+        "@name": "AntiKt6LCTopoJets"
+      }, 
+      {
+        "eventTimes": 0.15611111111111112, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "AntiKt6TowerJets"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }
+        ], 
+        "@name": "AntiKt4LCTopoJets"
+      }, 
+      {
+        "eventTimes": 0.14555555555555555, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "AntiKt6TowerJets"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }
+        ], 
+        "@name": "AntiKt6TopoEMJets"
+      }, 
+      {
+        "eventTimes": 0.15277777777777776, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "AntiKt6TowerJets"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }
+        ], 
+        "@name": "AntiKt4TopoEMJets"
+      }, 
+      {
+        "eventTimes": 0.0023333333333333335, 
+        "toGet": [], 
+        "@name": "INav4MomTruthEventBuilder"
+      }, 
+      {
+        "eventTimes": 0.0024444444444444448, 
+        "toGet": [
+          {
+            "label": "INav4MomTruthEventBuilder"
+          }, 
+          {
+            "label": "AntiKt6TowerJets"
+          }
+        ], 
+        "@name": "AntiKt4TruthJets"
+      }, 
+      {
+        "eventTimes": 0.0025555555555555553, 
+        "toGet": [
+          {
+            "label": "INav4MomTruthEventBuilder"
+          }, 
+          {
+            "label": "AntiKt6TowerJets"
+          }
+        ], 
+        "@name": "AntiKt6TruthJets"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }, 
+          {
+            "label": "RpcRdoToRpcPrepData"
+          }, 
+          {
+            "label": "AntiKt6TopoEMJets"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }, 
+          {
+            "label": "MboyRec"
+          }
+        ], 
+        "@name": "MuonSpShowerBuilder"
+      }, 
+      {
+        "eventTimes": 0.11522222222222223, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "tau1P3PProto"
+      }, 
+      {
+        "eventTimes": 0.014333333333333335, 
+        "toGet": [
+          {
+            "label": "tau1P3PProto"
+          }
+        ], 
+        "@name": "CaloTopoForTausMaker"
+      }, 
+      {
+        "eventTimes": 0.0027777777777777779, 
+        "toGet": [
+          {
+            "label": "CaloTopoForTausMaker"
+          }
+        ], 
+        "@name": "CaloCell2TopoClusterForTausMapper"
+      }, 
+      {
+        "eventTimes": 0.092222222222222233, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "CaloTopoForTausMaker"
+          }, 
+          {
+            "label": "InDetConversionFinder"
+          }, 
+          {
+            "label": "AntiKt4LCTopoJets"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "tauMerged"
+      }, 
+      {
+        "eventTimes": 0.031222222222222221, 
+        "toGet": [
+          {
+            "label": "tauMerged"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "TauDiscriminant"
+      }, 
+      {
+        "eventTimes": 0.021888888888888888, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "AntiKt4LCTopoJets"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "tauMerged"
+          }, 
+          {
+            "label": "BuildCaloCollection"
+          }, 
+          {
+            "label": "egammaAOD"
+          }
+        ], 
+        "@name": "METRefAlg"
+      }, 
+      {
+        "eventTimes": 0.02077777777777778, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "AntiKt4LCTopoJets"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "tauMerged"
+          }, 
+          {
+            "label": "BuildCaloCollection"
+          }, 
+          {
+            "label": "egammaAOD"
+          }
+        ], 
+        "@name": "METRefAlgMuid"
+      }, 
+      {
+        "eventTimes": 0.0032222222222222222, 
+        "toGet": [
+          {
+            "label": "BuildStacoCollection"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "BuildCaloCollection"
+          }, 
+          {
+            "label": "AntiKt4LCTopoJets"
+          }
+        ], 
+        "@name": "METRefAlgMu"
+      }, 
+      {
+        "eventTimes": 0.20633333333333334, 
+        "toGet": [
+          {
+            "label": "METRefAlgMu"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "METRefAlg"
+          }, 
+          {
+            "label": "AntiKt6TopoEMJets"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "AntiKt4TopoEMJets"
+          }
+        ], 
+        "@name": "METAlg"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "CmbTowerBldr"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "TopoTowerBldr"
+          }
+        ], 
+        "@name": "METAlgTowers"
+      }, 
+      {
+        "eventTimes": 0.014999999999999999, 
+        "toGet": [
+          {
+            "label": "BuildCaloCollection"
+          }, 
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "BuildMuidCollection"
+          }, 
+          {
+            "label": "tauMerged"
+          }, 
+          {
+            "label": "AntiKt4TopoEMJets"
+          }, 
+          {
+            "label": "egammaAOD"
+          }
+        ], 
+        "@name": "METRefAlg_em"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "METAlg"
+          }, 
+          {
+            "label": "METRefAlg_em"
+          }
+        ], 
+        "@name": "METAlg_em"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "tauMerged"
+          }
+        ], 
+        "@name": "eflowTauSeeder"
+      }, 
+      {
+        "eventTimes": 0.0096666666666666654, 
+        "toGet": [
+          {
+            "label": "eflowTauSeeder"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "eflowCaloObjectBuilder"
+      }, 
+      {
+        "eventTimes": 0.27811111111111109, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "eflowCaloObjectBuilder"
+          }
+        ], 
+        "@name": "eflowObjectBuilder_Tools"
+      }, 
+      {
+        "eventTimes": 0.17899999999999999, 
+        "toGet": [
+          {
+            "label": "eflowObjectBuilder_Tools"
+          }
+        ], 
+        "@name": "eflowRecoverSplitShowers"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "CaloTopoCluster"
+          }, 
+          {
+            "label": "MooSegmentMaker"
+          }, 
+          {
+            "label": "AntiKt4TopoEMJets"
+          }
+        ], 
+        "@name": "BeamBackgroundFiller"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [], 
+        "@name": "BcmCollisionTimeAlg"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }, 
+          {
+            "label": "BcmCollisionTimeAlg"
+          }, 
+          {
+            "label": "BeamBackgroundFiller"
+          }
+        ], 
+        "@name": "BackgroundWordFiller"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [], 
+        "@name": "CBNTAA_EventInfo"
+      }, 
+      {
+        "eventTimes": 0.0077777777777777776, 
+        "toGet": [], 
+        "@name": "CBNTAA_Truth"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "History"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "VisibleCharged"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "Boson"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "Lepton"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "Electron"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "HeavyQuark"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "Photon"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "CBNTAA_Truth"
+          }
+        ], 
+        "@name": "Tau"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [], 
+        "@name": "AllDaughters"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [], 
+        "@name": "AllAncestors"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "TrackRecordFilter"
+          }
+        ], 
+        "@name": "CBNTAA_TrackRecord"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "InDetPriVxFinder"
+          }
+        ], 
+        "@name": "CBNT_VxPrimary"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetTrackParticleTruthMaker"
+          }
+        ], 
+        "@name": "CBNT_TrackParticle"
+      }, 
+      {
+        "eventTimes": 0.025444444444444443, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CBNT_CaloInfo"
+      }, 
+      {
+        "eventTimes": 0.022222222222222223, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CBNT_LArEMCell"
+      }, 
+      {
+        "eventTimes": 0.013333333333333334, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CBNT_LArHECCell"
+      }, 
+      {
+        "eventTimes": 0.013111111111111112, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CBNT_LArFCALCell"
+      }, 
+      {
+        "eventTimes": 0.013111111111111112, 
+        "toGet": [
+          {
+            "label": "CaloCellMaker"
+          }
+        ], 
+        "@name": "CBNT_TileCell"
+      }, 
+      {
+        "eventTimes": 0.00033333333333333332, 
+        "toGet": [
+          {
+            "label": "LArClusterMaker"
+          }
+        ], 
+        "@name": "CBNT_CaloCluster"
+      }, 
+      {
+        "eventTimes": 0.0011111111111111111, 
+        "toGet": [
+          {
+            "label": "CaloClusterTopoEM430Getter"
+          }
+        ], 
+        "@name": "CBNT_EMClusterTopo430"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "TileLookForMuAlg"
+          }
+        ], 
+        "@name": "CBNTAA_TileMu"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MdtPrepRawDataNtuple"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [], 
+        "@name": "MdtRawDataNtuple"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "TgcRdoToTgcPrepData"
+          }
+        ], 
+        "@name": "TgcPrepRawDataNtuple"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "CscRdoToCscPrepData"
+          }
+        ], 
+        "@name": "CscPrepRawDataNtuple"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [], 
+        "@name": "CscRawDataNtuple"
+      }, 
+      {
+        "eventTimes": 0.00088888888888888882, 
+        "toGet": [
+          {
+            "label": "MooSegmentMaker"
+          }, 
+          {
+            "label": "MdtRdoToMdtPrepData"
+          }
+        ], 
+        "@name": "MuonMakeSegmentNtuple"
+      }, 
+      {
+        "eventTimes": 0.0036666666666666666, 
+        "toGet": [
+          {
+            "label": "MuonCombiTrackBuilder"
+          }, 
+          {
+            "label": "TrackRecordFilter"
+          }
+        ], 
+        "@name": "MuonMakeTrackNtuple"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "MboyRec"
+          }
+        ], 
+        "@name": "CBNTAA_Muon"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "MuonSpShowerBuilder"
+          }
+        ], 
+        "@name": "CBNTAA_MuonSpShower"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "AntiKt4TowerJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt4TowerJets"
+      }, 
+      {
+        "eventTimes": 0.00055555555555555556, 
+        "toGet": [
+          {
+            "label": "AntiKt6TruthJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt6TruthJets"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "AntiKt6LCTopoJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt6LCTopoJets"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "AntiKt6TowerJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt6TowerJets"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "AntiKt6TopoEMJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt6TopoEMJets"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "AntiKt4LCTopoJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt4LCTopoJets"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "AntiKt4TruthJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt4TruthJets"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "AntiKt4TopoEMJets"
+          }
+        ], 
+        "@name": "CBNT_AntiKt4TopoEMJets"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "egamma"
+          }
+        ], 
+        "@name": "CBNT_egamma"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "egamma"
+          }
+        ], 
+        "@name": "CBNT_egammaPhoton"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "softe"
+          }
+        ], 
+        "@name": "CBNT_egammaSofte"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "egammaAOD"
+          }
+        ], 
+        "@name": "CBNT_egammaAOD"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "egammaAOD"
+          }
+        ], 
+        "@name": "CBNT_egammaPhotonAOD"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "StacoMaster"
+          }
+        ], 
+        "@name": "CBNTAA_Staco"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "StacoDressingTP2Ana"
+          }
+        ], 
+        "@name": "CBNTAA_StacoExtr"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "ComposeStacoCollection"
+          }
+        ], 
+        "@name": "CBNTAA_MboyESD"
+      }, 
+      {
+        "eventTimes": 0.0, 
+        "toGet": [
+          {
+            "label": "MuTagMaster"
+          }
+        ], 
+        "@name": "CBNTAA_MuTag"
+      }, 
+      {
+        "eventTimes": 0.0017777777777777776, 
+        "toGet": [
+          {
+            "label": "CaloTrkMuIdAlg"
+          }, 
+          {
+            "label": "InDetParticleCreation"
+          }, 
+          {
+            "label": "InDetPriVxFinder"
+          }, 
+          {
+            "label": "InDetTrackParticleTruthMaker"
+          }
+        ], 
+        "@name": "CBNTAA_CaloTrkMuId"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "MuidCombinedTPAMCreator"
+          }, 
+          {
+            "label": "MuidStandaloneTPAMCreator"
+          }, 
+          {
+            "label": "MuidMooreTPCreator"
+          }
+        ], 
+        "@name": "MuidAANtuple"
+      }, 
+      {
+        "eventTimes": 0.00055555555555555556, 
+        "toGet": [], 
+        "@name": "MuidAANtupleKINE"
+      }, 
+      {
+        "eventTimes": 0.0013333333333333333, 
+        "toGet": [
+          {
+            "label": "InDetTrackSlimmer"
+          }, 
+          {
+            "label": "MuTagMasterIMO"
+          }, 
+          {
+            "label": "TrackTruthCollectionSelector"
+          }, 
+          {
+            "label": "MooSegmentMaker"
+          }
+        ], 
+        "@name": "CBNTAA_MuTagIMO"
+      }, 
+      {
+        "eventTimes": 0.00044444444444444441, 
+        "toGet": [
+          {
+            "label": "METRefAlgMu"
+          }, 
+          {
+            "label": "METRefAlg"
+          }, 
+          {
+            "label": "METAlg"
+          }
+        ], 
+        "@name": "CBNTAA_MissingET"
+      }, 
+      {
+        "eventTimes": 0.00022222222222222221, 
+        "toGet": [
+          {
+            "label": "METAlg"
+          }
+        ], 
+        "@name": "CBNTAA_MissingETtruth"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [
+          {
+            "label": "eflowRecoverSplitShowers"
+          }
+        ], 
+        "@name": "CBNTAA_eflow"
+      }, 
+      {
+        "eventTimes": 0.0001111111111111111, 
+        "toGet": [], 
+        "@name": "CreateLumiBlockCollectionFromFile"
+      }
+    ]
+  }
+}
