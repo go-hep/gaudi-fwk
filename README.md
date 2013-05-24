@@ -1,6 +1,8 @@
 go-gaudi
 ========
 
+[![Build Status](https://drone.io/github.com/go-hep/gaudi-fwk/status.png)](https://drone.io/github.com/go-hep/gaudi-fwk/latest)
+
 ``go-gaudi`` is an experimental rewrite of ``Gaudi`` in ``Go`` to
 investigate concurrency patterns and implementations.
 
